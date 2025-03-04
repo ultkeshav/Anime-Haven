@@ -1,0 +1,882 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan' sans-serif;
+}
+.navbar{
+    height: 100px; 
+    width: 100%;
+    background-color:#E5D4FF;
+    color: black;
+    display: flex;
+    box-shadow: 0 5px 15px, rgba(0, 0, 0, 0.06);
+    position: sticky;
+  
+}
+.home{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+            
+    
+}
+
+.shop{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+  
+}
+.about{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+
+    
+}
+.contact{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+ 
+
+}
+.icons
+{
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+   
+    
+}
+.container{
+    background-color:#F1EAFF;
+    width: 100%;
+    height: 1350px;
+    
+}
+.h1{
+    font-family: 'Varela Round' sans-serif;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 300px;
+    font-size: 45px;
+    
+}
+.icont{
+    position: absolute;
+    margin-left: 850px;
+}
+.logos{
+    position: absolute;
+    margin-left: 150px;
+    width: 100px;
+    margin-top: 20px;
+}
+.active{
+    text-decoration: none;
+    color: black;
+}
+.active::after{
+    content: " ";
+    width: 50%;
+    height: 2px;
+
+}
+.h2{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 350px;
+    font-size: 60px;
+}
+.h3{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 430px;
+    font-size: 70px;
+}
+.h4{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 530px;
+    font-size: 30px
+}
+.hero{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 280px;
+  font-size: 35px;
+}
+.offer{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 15px;
+}
+.button{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: large;
+}
+.tshirt{
+    color:purple;
+}
+.button{
+    background: transparent;
+    background-color: #E5D4FF;
+    border: 0;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 60px;
+    transition: width 1s ,height 2s ease-out;
+}
+.button:hover{
+    width: 200px;
+    height: 80px;
+}
+.login{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 35px;
+    font-size: 22px;
+    cursor: pointer;
+    background: transparent;
+    background-color:rgb(186, 113, 186);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Spartan' sans-serif;
+    width:170px;
+    height: 30px;
+    padding: 0 0.50em;
+ 
+    border: 2px solid black;
+}
+
+.feature{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color:whitesmoke;
+}
+.freeimg{
+
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 100px;
+ 
+
+}
+.orderimg{
+    width: 200px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.saveimg{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.happyimg{
+    width: 200px;
+    margin-left: 210px;
+    margin-top: 100px;
+  
+
+}
+.supportimg{
+    width: 200px;
+    margin-left: 230px;
+    margin-top: 100px;
+ 
+}
+
+#h1{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10pxpx;
+    
+}
+#h2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30pxpx;
+}
+#h3{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 50pxpx;
+}
+#h4{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 70ppxx;
+}
+#h5{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 90pxpx;
+}
+#b1{
+    width: 150px;
+    height: 90px;
+    margin-left: 80px;
+    transition: width 0.5s ,height 1s ease-in;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgb(237, 216, 96);
+}
+#b2{
+    width: 160px;
+    height: 90px;
+    margin-left: 200px;transition: width 0.5s ,height 1s ease-in;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgb(237, 216, 96);
+}
+#b3{
+    width: 150px;
+    height: 90px;
+    margin-left: 220px;
+    transition: width 0.5s ,height 1s ease-in;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgb(237, 216, 96);
+
+}
+#b4{
+    width: 150px;
+    height: 90px;
+    margin-left: 250px;
+    transition: width 0.5s ,height 1s ease-in;
+     cursor: pointer;
+    background: transparent;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgb(237, 216, 96);
+
+}
+#b5{
+    width: 150px;
+    height: 90px;
+    margin-left: 230px;
+    transition: width 0.5s ,height 1s ease-in;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: rgb(237, 216, 96);
+}
+#b1:hover{
+    width: 160px;
+    height: 100px;
+}
+#b2:hover{
+    width: 170px;
+    height: 100px;
+}
+#b3:hover{
+    width: 160px;
+    height: 100px;
+}
+#b4:hover{
+    width: 160px;
+    height: 100px;
+}
+#b5:hover{
+    width: 160px;
+    height: 100px;
+}
+.fp{
+    margin-left: 700px;
+    margin-top: 100px;
+    font-size: 80px;
+}
+.wc{
+    margin-left: 800px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid grey;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 8px 0;
+    transition: 0.2s ease ;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 690px;
+    
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bn{
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    background: none;
+    background-color: rgb(245, 194, 40);
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.2s ease;
+    box-shadow: 20px 20px 30px  rgba(0,0,0,0.02);
+    margin-top: 30px;
+    
+
+}
+.bn:hover{
+    box-shadow: 20px 20px 30px  rgba(0,0,0,0.06);
+}
+.ac{
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(238, 220, 60);
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.2s ease;
+    box-shadow: 20px 20px 30px  rgba(0,0,0,0.02);
+    margin-top: 30px;
+}
+.ac:hover{
+    box-shadow: 20px 20px 30px  rgba(0,0,0,0.06);
+}
+.company{
+    font-size: 20px;
+    color: grey;
+}
+.tname{
+    font-size: 30px;
+}
+.price{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 40px;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 70px;
+    flex-wrap: wrap;
+}
+#banner{
+    position: absolute;
+    margin-top: 150px;
+    height: 500px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(7.jpg);
+    width: 100%;
+    height: 40vh;
+    color: black;
+    background-size: 100%;
+    border-radius: 20px;
+}
+.r{
+    font-size: 35px;
+}
+.off{
+    color: goldenrod;
+}
+.ban{
+    width: 70%;
+    position: absolute;
+    margin-top: 500px;
+    height: 500px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+}
+.winter{
+    font-size: 50px;
+}
+
+#product2 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid grey;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 8px 0;
+    transition: 0.2s ease ;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 590px;
+    
+}
+#product2 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product2 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product2 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 800px;
+    padding-right: 70px;
+    flex-wrap: wrap;
+}
+#banner1{
+        position: absolute;
+        margin-top: 150px;
+        height: 500px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(21.jpg);
+        width: 40%;
+        height: 40vh;
+        color: white;
+        background-size: 100%;
+        border-radius: 20px;
+        margin-left: 180px;
+      
+}
+.r{
+   margin-top: 150px;
+   font-size: 60px;
+}
+.s{
+  margin-top: 30px;
+}
+.t{
+  margin-top: 30px;
+  color: goldenrod;
+}
+#banner2{
+
+    position: absolute;
+    margin-top: 150px;
+    height: 500px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(26.jpg);
+    width: 40%;
+    height: 40vh;
+    color: white;
+    background-size: 100%;
+    border-radius: 20px;
+    margin-left: 1000px;
+
+}
+.a{
+    margin-right: 450px;
+    margin-top: 100px;
+    font-size: larger;
+}
+.b{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.c{
+    margin-right: 200px;
+    margin-top: 90px;
+    color: goldenrod;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no repeat;
+    background-image: url(30.jpg);
+    font-size: 30px;
+    margin-top: 650px;
+    color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.newstack{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#sign{
+    font-size: 40px;
+}
+
+#update{
+    margin-top: 10px;
+}
+#offer{
+    color: goldenrod;
+}
+.form{
+    margin-right: 150px;    
+}
+.search{
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 0 1.25em;
+}
+.sbutton{
+    
+    font-size: 35px;
+    border-radius: 10px;
+    color:black;
+    background-color:goldenrod;
+    cursor: pointer;
+    font-family: 'Spartan' sans-serif;
+    padding: 0 1.25em;
+   
+}
+.logob{
+    width: 15%;
+    margin-top: 20px;
+}
+.section-p1{
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.con{
+    margin-top: 40px;
+}
+.fol{
+    margin-top: 30px;
+}
+.folo{
+    margin-top: 20px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.section-p1{
+    display: flex;
+    flex-direction: row;
+}
+.col1{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: larger;
+}
+.col2{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: larger;
+}
+.button1{
+
+        background: transparent;
+        background-color: #E5D4FF;
+        border: 0;
+        border-radius: 10%;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 150px;
+        height: 60px;
+        transition: width 1s ,height 2s ease-out;
+}
+.button1{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: large;
+}
+.button1:hover{
+    width: 200px;
+    height: 80px;
+}
+.pro-container1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 800px;
+    padding-right: 70px;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.pro1{
+    width: 23%;
+    min-width: 250px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid grey;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 8px 0;
+    transition: 0.2s ease ;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 590px;
+    
+}
+.pro1:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+.pro1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.button1{
+    background: transparent;
+    background-color: #E5D4FF;
+    border: 0;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 60px;
+    transition: width 1s ,height 2s ease-out;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.button1:hover{
+    width: 200px;
+    height: 80px;
+}
+.offer1{
+    font-size: 25px;
+    position: absolute;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.span1{
+
+    color:purple;
+
+}
+.span2{
+
+    color: purple;
+
+}
+.container1{
+    background-color:#F1EAFF;
+    width: 100%;
+    height: 1280px;
+    
+}
+
+  header {
+    
+    background-color: #f0f0f0;
+
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .about-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .footer1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .newsletter1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no repeat;
+    background-image: url(30.jpg);
+    font-size: 30px;
+    margin-top: 200px;
+    color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.newstack1{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#pagination{
+    text-decoration: none;
+    position: absolute;
+    margin-left: 50%;
+    padding: 15px 20px;
+    margin-top: 50px;
+    background: transparent;
+    background-color: #11972e;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#pagination i a{
+    font-size: 16px;
+    font-weight: 600;
+}
+#prodetails .single-pro-image{
+    width: 30%;
+    margin-right: 50px;
+    border: 5px solid purple;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#single{
+ width: 50%;
+ padding-bottom: 30px;
+ position: absolute;
+ margin-top: 100px;
+ margin-left: 720px;
+ font-size: 30px;
+
+}
+.sizeo{
+    font-size: 25px;
+    margin-top: 100px;
+    background: transparent;
+    padding: 0 1.25em;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #ebb94d;
+    cursor: pointer;
+}
+.addtocart{
+    font-size: 25px;
+    margin-top: 100px;
+    background: transparent;
+    padding: 0 1.25em;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(241, 154, 113);
+    cursor: pointer;
+}
+.quantity{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.pd
+{
+    margin-top: 100px;
+}
+.jg{
+    margin-top: 25px;
+
+}
+.pr{
+    margin-top: 50px;
+}
+.bnow{
+    font-size: 25px;
+    margin-top: 50px;
+    background: transparent;
+    padding: 0 1.50em;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(245, 194, 40);
+    cursor: pointer;
+    font-size: 25px;
+}
+.offer2{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.pabout{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 600px;
+    font-size: 32px;
+}
+.container5{
+    background-color:#F1EAFF;
+    width: 100%;
+    height: 1280px;
+    
+}
+.simple{
+
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 1000px;
+    font-size: 32px;
+
+}
+.simple1{
+
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 1000px;
+    font-size: 32px;
+
+}
+.simple2{
+    color: purple;
+    font-weight: bold;
+}
+.offer{
+    font-weight: 600;
+}
